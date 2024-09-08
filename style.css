@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    padding: .6%;  
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+ul li{
+    float:left;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    color:black;
+    padding: 9px;
+    font-family:sans-serif;
+    font-size: large;
+}
+
+.link{
+    margin-left: 70%;
+    background-color: rgba(248, 5, 5, 0.9);
+    border: none;
+    color: white;
+    border-radius: 40px;
+}
+h1{
+    font-weight: 1000;
+}
+h1, .link a{
+    color: white;
+}
+
+.linkk{
+    margin-left: 2%;
+}
+
+header{
+    position: relative;
+    top: 55px;
+    background-image: url(./images/background.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    z-index: -1;
+}
+div{
+    width: 53%;
+position: absolute;
+top:225px;
+left:26%;
+}
+form{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: o;
+}
+input{
+    position: absolute;
+    top: 10px;
+    left:19%;
+    width: 55%;
+    padding: 2%;
+    text-align: center;
+    border: none;
+    margin: auto;
+    border-radius: 35px;
+    font-size: medium;
+}
+button{
+    position: absolute;
+    top: 70px;
+    left: 29%;
+    width: 35%;
+    padding: .5% 1%;
+    text-align: center;
+    border: none;
+    border-radius: 35px;
+    font-size: medium;
+}
+a{
+    color:rgb(241, 7, 7);
+    text-decoration: none;
+}
+.section1{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+.scooter{
+    position: absolute;
+    left: 18%;
+    top: 200px;
+    right: 0;
+    width: 16.5%;
+    text-align: center;
+}
+.scooter p{
+    line-height: 17px;
+    margin: 5% 0;
+}
+
+.store{
+    position: absolute;
+    left: 42%;
+    top: 205px;
+    width: 17%;
+    text-align: center;
+}
+.store p{
+    margin: 6% 0;
+    line-height: 17px;
+}
+.iphone{
+    position: absolute;
+    left: 66%;
+    right: 0;
+    top: 200px;
+    width: 16.5%;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.iphone p{
+    margin: 6% 0;
+    line-height: 17px;   
+}
+.section2{
+    position: relative;
+    left: 0;
+    top: 50px;
+}
+.cravings{
+    position: absolute;
+    left: 10%;
+    top: 670px;
+    bottom: 0;
+    right: 0;
+}
+.cravings p, .cravings h4{
+    width: 62%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 18px;
+}
+.cravings h2{
+    width: 35%;
+    text-align: left;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#cravings{
+    position: absolute;
+    top: 550px;
+    left: 45%;
+    right: 0;
+    bottom: 300px;
+}
+.restaurants{
+    color: white;
+    background-color: rgb(241, 7, 7);
+    padding: 1.5% 2%;
+    border: none;
+    border-radius: 40px;
+}
+.section3{
+    position: relative;
+    left: 0;
+    top: 110px;
+}
+.dashpass{
+    position: absolute;
+    left: 10%;
+    top: 960px;
+    bottom: 0;
+    right: 0;
+}
+#dashpass p{
+    width: 65%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 20px;
+}
+#dashpass h2{
+    width: 30%;
+    text-align: left;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#dashpass{
+    position: absolute;
+    top: 1100px;
+    left: 60%;
+    right: 0;
+    bottom: 300px;
+}
+#header{
+    position: relative;
+    top: 1482px;
+    background-image: url(./images/capture.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    z-index: -1;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+#head{
+    width: 40%;
+    position: absolute;
+    top: 160px;
+    left:30%;
+    text-align: center;
+    margin: auto;
+}
+#head h1, #head h3, #head p{
+    margin-bottom: 4%;
+    color: white;
+    
+}
+#head h1{
+    width: 70%;
+    margin: auto;
+}
+#head h3{
+    margin-top: 4%;
+}
+.section4{
+    position: relative;
+    left: 0;
+    top: 940px;
+}
+.convenience{
+    position: absolute;
+    left: 10%;
+    top: 670px;
+    bottom: 0;
+    right: 0;
+}
+.convenience p{
+    width: 62%;
+    text-align: left;
+    margin-bottom: 6%;
+    line-height: 18px;
+}
+.convenience h2{
+    width: 37%;
+    text-align: left;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#convenience{
+    position: absolute;
+    top: 550px;
+    left: 45%;
+    right: 0;
+    bottom: 300px;
+}
+.section5{
+    position: relative;
+    left: 0;
+    top: 1450px;
+}
+.section5 h1{
+    position: absolute;
+    left: 40%;
+    top: 505px;
+    color: black;
+    width: 23%;
+    text-align: center; 
+}
+.packages{
+    position: absolute;
+    left: 20%;
+    top: 600px;
+    bottom: 0;
+    right: 0;
+}
+#packages{
+    position: absolute;
+    top: 970px;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+}
+#packages p{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 6%;
+    line-height: 18px;
+    font-size: 14px;
+}
+#packages h2{
+    width: 47%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+#packages a{
+    position: absolute;
+    top: 119px;
+    left: 21%;
+}
+.flowers{
+    position: absolute;
+    left: 53%;
+    top: 600px;
+    bottom: 0;
+    right: 0;
+}
+#flowers{
+    position: absolute;
+    top: 970px;
+    left: 53%;
+    right: 0;
+    bottom: 0;
+}
+#flowers p{
+    width: 67%;
+    text-align: center;
+    margin-bottom: 2%;
+    line-height: 18px;
+    font-size: 13px;
+}
+#flowers h2{
+    width: 57%;
+    text-align: center;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#flowers a{
+    position: absolute;
+    top: 100px;
+    left: 22%;
+}
+.liquor{
+    position: absolute;
+    left: 20%;
+    top: 1150px;
+    bottom: 0;
+    right: 0;
+}
+#liquor{
+    position: absolute;
+    top: 1530px;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+}
+#liquor p{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 6%;
+    line-height: 18px;
+    font-size: 13px;
+}
+#liquor h2{
+    width: 57%;
+    text-align: center;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#liquor a{
+    position: absolute;
+    top: 115px;
+    left: 21%;
+}
+#liquor .paragraph{
+    position: absolute;
+    top: 168px;
+    left: 0;
+}
+.pet{
+    position: absolute;
+    left: 53%;
+    top: 1150px;
+    bottom: 0;
+    right: 0;
+}
+#pet{
+    position: absolute;
+    top: 1530px;
+    left: 53%;
+    right: 0;
+    bottom: 0;
+}
+#pet p{
+    width: 62%;
+    text-align: center;
+    margin-bottom: 2%;
+    line-height: 18px;
+    font-size: 13px;
+}
+#pet h2{
+    width: 53%;
+    text-align: center;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#pet a{
+    position: absolute;
+    top: 115px;
+    left: 22%;
+}
+.section6{
+    position: relative;
+    left: 0;
+    top: 2800px;
+}
+.section6 h1{
+    position: absolute;
+    left: 37%;
+    top: 430px;
+    bottom: 0;
+    right: 0;
+    color: black;
+    width: 25%;
+    text-align: center;
+}
+.signup{
+    position: absolute;
+    left: 10%;
+    top: 670px;
+    bottom: 0;
+    right: 0;
+}
+.signup p{
+    width: 62%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 18px;
+}
+.signup h2{
+    width: 35%;
+    text-align: left;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#signup{
+    position: absolute;
+    top: 550px;
+    left: 45%;
+    right: 0;
+    bottom: 300px;
+}
+.section7{
+    position: relative;
+    left: 0;
+    top: 2850px;
+}
+.grow{
+    position: absolute;
+    left: 10%;
+    top: 960px;
+    bottom: 0;
+    right: 0;
+}
+#grow p{
+    width: 65%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 20px;
+}
+#grow h2{
+    width: 30%;
+    text-align: left;
+    line-height: 29px; 
+    margin-bottom: 2%;
+}
+#grow{
+    position: absolute;
+    top: 1100px;
+    left: 60%;
+    right: 0;
+    bottom: 300px;
+}
+table{
+    position: relative;
+    top: 4250px;
+    left: 0;
+    width: 75%;
+    margin: auto;
+    border: none;
+}
+caption{
+    font-weight: 600;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+th{
+    border-bottom: 1px solid black;
+    padding: .3%;
+}
+td{
+    padding: 1%;
+    text-align: center;
+    font-size: medium;
+}
+
+  .footer {
+    background-color: black;
+    color: black;
+   position: absolute;
+    top: 5600px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 790px;
+  }
+  .footer1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1400px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 680px;
+  }
+  .footer1 table {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .footer1 th:hover{
+    cursor: pointer;
+    color: grey;
+  }
+  .footer1 td:hover{
+    cursor: pointer;
+    color: grey;
+  }
+  .footer1 td {
+    line-height: 12px;
+  }
+  .footer1 th {
+    text-align:left;
+  }
+  .footer2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    width:650px;
+    height: 680px;
+  }
+  .footer2 table {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .footer2 th:hover{
+    cursor: pointer;
+    color: grey;
+  }
+  .footer2 td:hover{
+    cursor: pointer;
+    color: grey;
+  }
+  .footer2 td {
+    line-height: 15px;
+  }
+  .footer2 th {
+    text-align:center;
+  }
+  .footer3 {
+    text-align: center;
+    position: absolute;
+    top: 6030px;
+    left: 60%;
+    right: 0;
+    width:450px;
+    
+  }
+  .footer3 button {
+    width: 150px;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(73, 73, 73);
+    color: rgb(170, 166, 166);
+  }
+  .footer3 button:hover {
+    cursor: pointer;
+    color: gray;
+  }
+  .footer4 {
+    text-align: center;
+    position: absolute;
+    top: 6355px;
+    left: 9%;
+    width:1000px;
+    height: 80px;
+  }
+  .footer4 a {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+  }
+  .footer4 a:hover {
+    color: gray;
+  }
+  .footer4 p {
+    color: white;
+    display: inline;
+  }
+  .footer4 img {
+    width: 25px;
+    height: 25px;
+    color: white;
+    float: inline-start;
+  }
+  .footer4 select {
+    width: 10%;
+    border-radius: 20px;
+  }

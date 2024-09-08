@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Door Dash</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li> <svg aria-hidden="true" width="32" height="27" viewBox="0 0 99.5 56.5" fill="#EB1700"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg>
+            <svg aria-hidden="true" width="112" height="29" viewBox="0 0 361.1 42" fill="#EB1700">
+                <path d="M8.62,8.66V33.38h6.32A12.21,12.21,0,0,0,27,21,12,12,0,0,0,14.94,8.66ZM14.94.91C26.72.91,35.63,9.81,35.63,21S26.72,41.14,14.94,41.14H1a1,1,0,0,1-1-1V1.95a1,1,0,0,1,1-1Z"></path>
+                <path d="M66,34.24A13.22,13.22,0,1,0,52.82,21,13.24,13.24,0,0,0,66,34.24M66,0C78.4,0,87.88,9.53,87.88,21S78.4,42,66,42,44.2,32.52,44.2,21,53.68,0,66,0"></path>
+                <path d="M118,34.24A13.22,13.22,0,1,0,104.75,21,13.24,13.24,0,0,0,118,34.24M118,0c12.36,0,21.84,9.48,21.84,21S130.32,42,118,42,96.12,32.52,96.12,21,105.6,0,118,0"></path>
+                <path d="M168.75,8.66h-8.91V19.3h8.91a5.22,5.22,0,0,0,5.46-5.17,5.28,5.28,0,0,0-5.46-5.46M151.22,1.95a1,1,0,0,1,1-1H169c8,0,13.79,5.86,13.79,13.22a13,13,0,0,1-7.18,11.78l7.74,13.68a1,1,0,0,1-.91,1.56h-6.79a1,1,0,0,1-.91-.54l-7.46-13.54h-7.47v13a1,1,0,0,1-1,1h-6.54a1,1,0,0,1-1-1Z"></path>
+                <path d="M205.26,8.85V33.57h6.32a12.21,12.21,0,0,0,12.07-12.36A12,12,0,0,0,211.58,8.85Zm6.32-7.76c11.78,0,20.69,8.91,20.69,20.12s-8.91,20.12-20.69,20.12h-13.9a1,1,0,0,1-1-1V2.14a1,1,0,0,1,1-1Z"></path>
+                <path d="M258.56,10.92l-4.89,13.22h9.77Zm-7.76,20.69-3.2,8.8a1,1,0,0,1-1,.69h-6.94a1,1,0,0,1-1-1.42l15-38.15a1,1,0,0,1,1-.66h7.77a1,1,0,0,1,1,.66l15,38.15a1,1,0,0,1-1,1.42h-6.94a1,1,0,0,1-1-.69l-3.2-8.8Z"></path>
+                <path d="M286.48,11.78C286.48,5.46,291.94,0,300.56,0a17.84,17.84,0,0,1,12.51,4.71,1,1,0,0,1,0,1.47L309.22,10a1,1,0,0,1-1.42,0,10.12,10.12,0,0,0-6.67-2.63c-3.45,0-6,2-6,4.31,0,7.47,20.38,3.16,20.38,17.53C315.5,36.49,310,42,300.27,42a20.41,20.41,0,0,1-14.54-5.84,1,1,0,0,1,0-1.47l3.72-3.72a1,1,0,0,1,1.45,0,12.85,12.85,0,0,0,8.79,3.58c4.31,0,7.15-2.3,7.15-5.18,0-7.47-20.37-3.16-20.37-17.53"></path>
+                <path d="M352.47,1.9V17H335.22V1.9a1,1,0,0,0-1-1h-6.54a1,1,0,0,0-1,1V40.05a1,1,0,0,0,1,1h6.54a1,1,0,0,0,1-1V24.71h17.24V40.05a1,1,0,0,0,1,1H360a1,1,0,0,0,1-1V1.9a1,1,0,0,0-1-1h-6.54A1,1,0,0,0,352.47,1.9Z"></path>
+            </svg></li>
+        <li class="link"><a  href="#">Sign In</a></li>
+        <li class="linkk"><a href="#">Sign Up</a></li>
+    </ul>
+</nav>
+
+<header>
+    <div>
+        <h1>Discover restaurants and more near you.</h1>
+        <form action="#">
+            <input type="text" id="delivery-address" placeholder="Enter delivery address" name="text">
+            <button type="submit" id="submit" value="submit">Sign in for saved address</button>
+        </form>
+    </div>
+</header>
+
+<section class="section1">
+    <div class="scooter">
+        <img src="./images/Scoot.svg" alt="a delivery lady riding a scooter">
+        <h2>Become a Dasher</h2>
+        <p>As a delivery driver, you'll make reliable money-working anytime anywhere.</p>
+        <a href="#">Start earning</a>
+    </div>
+
+    <div class="store">
+        <img src="./images/Storefront.svg" alt="a picture of a store">
+        <h2>Become a Partner</h2>
+        <p>Grow your business and reach new customers by partnering with us.</p>
+        <a href="#">Sign up your store</a>
+    </div>
+
+    <div class="iphone">
+        <img src="./images/iphone.svg" alt="an image of a phone showing our logo">
+        <h2>Get the best DoorDash experience</h2>
+        <p>Experience the best your neighborhood has to offer, all in one app.</p>
+        <a href="#">Get the app</a>
+    </div>
+</section>
+
+<section class="section2">
+    <div class="cravings">
+        <h2>Everything you crave, delivered.</h2>
+        <h4>Your favorite local restaurants</h4>
+        <p>Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the chinese takeout
+            spot you've been meaning to try.</p>
+        <a class="restaurants" href="#">Find reataurants</a>
+    </div>
+
+    <div id="cravings">
+        <img src="./images/cravings.png" alt="a blonde lady eating pizza on a picnic" width="600px">
+    </div>
+</section>
+
+<section class="section3">
+
+        <div class="dashpass">
+            <img src="./images/dashpass.png" alt="a picture of different types  of foods and a glass of ice drink on the table" width="600px">
+        </div>
+        
+    <div id="dashpass">
+        <h2>DashPass is delivery for less</h2>
+        <p>Members get a &dollar;0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's free for 30 days.</p>
+        <a class="restaurants" href="#">Get DashPass</a>
+    </div>
+
+</section>
+
+<header id="header">
+    <div class="overlay">
+        <div id="head">
+            <h1>Get grocery and convenience store essentials</h1>
+            <h3>Grocery, delivery, exactly how you want it.</h3>
+            <p>Shop from home and fill your cart with fresh produce, frozen entrees, deli delights, and more.</p>
+            <a class="restaurants" href="#">Shop Groceries</a>
+        </div>
+    </div>
+</header>
+
+<section class="section4">
+    <div class="convenience">
+        <h2>Convenience stores at your doorstep</h2>
+        <p>Stock up on snacks, household essentials, candy, or vitamins - all delivered in under an hour.</p>
+        <a class="restaurants" href="#">Shop Now</a>
+    </div>
+
+    <div id="convenience">
+        <img src="./images/convenience_desktop.png" alt="a customer goods being properly packed" width="600px">
+    </div>
+</section>
+
+<section class="section5">
+    <h1>Helping you with to-dos and gifting</h1>
+         <div class="packages">
+            <img src="./images/package.png" alt="an image of packaged goods" width="400px">
+        </div>
+
+        <div id="packages">
+            <h2>Return packages from home</h2>
+            <p>Request a package with just a few taps and get your returns dropped off at carriers like UPS, FedEx, and USPS.</p>
+            <a class="restaurants" href="#">Try Package Pickup</a>
+        </div>
+
+            <div class="flowers">
+                <img src="./images/flowers.png" alt="an image of flowers in a bicycle front carrier" width="400px">
+            </div>
+
+            <div id="flowers">
+                <h2>Flowers for any occasion</h2>
+                <p>Shop hand-picked and thoughtfully-arranged blooms from florists near you.</p>
+                <a class="restaurants" href="#">Send Flowers</a>
+            </div>
+
+
+            <div class="liquor">
+                <img src="./images/alcohol.png" alt="an image of bottles of liquor well recieved" width="400px">
+            </div>
+    
+            <div id="liquor">
+                <h2>Restock the minibar</h2>
+                <p>Hosting a get-together or need a special cocktail ingredient? Get liquor, beer, mixers, champagne, and wine delivered fast.</p>
+                <a class="restaurants" href="#">Shop Alcohol</a>
+                <p class="paragraph">Must  be 21+. Enjoy responsibly.</p>
+            </div>
+
+            <div class="pet">
+                <img src="./images/pet.png" alt="an image of of a dog being fed with it food that was ordered and well delivered to it owner" width="400px">
+            </div>
+    
+            <div id="pet">
+                <h2>What your pets need, and want</h2>
+                <p>Finally, something cat people and dog people agree on - pet supplies delivery. Shop pet food, chew toys, and even costumes.</p>
+                <a class="restaurants" href="#">Get Pet supplies</a>
+            </div>
+</section>
+
+<section class="section6">
+    <h1>Unlocking opportunity for Dashers and businesses</h1>
+    <div class="signup">
+        <h2>Sign up to dash and get paid.</h2>
+        <p>Deliver with the #1 Food and Drink App in the U.S., set your own schedule, and start earning cash anytime, anywhere.</p>
+        <a class="restaurants" href="#">Become a Dasher</a>
+    </div>
+
+    <div id="signup">
+        <img src="./images/dasher.png" alt="a picture of a guy carrying a bag and walking towards the store" width="600px">
+    </div>
+</section>
+
+<section class="section7">
+
+        <div class="grow">
+            <img src="./images/workwith.png" alt="a picture of a lady delivering a package" width="600px">
+        </div>
+        
+    <div id="grow">
+        <h2>Grow your business with DoorDash</h2>
+        <p>Businesses large and small partner with DoorDash to reach new customers, increase order volume, and drive more sales.</p>
+        <a class="restaurants" href="#">Become a Partner</a>
+    </div>
+
+</section>
+<table>
+    <caption>Get more from your neighborhood</caption>
+    <tr>
+        <th colspan="2">Top Cities</th>
+        <th colspan="2">Top Countries</th>
+        <th>Top Chains</th>
+    </tr>
+    <tr>
+        <td>New York</td>
+        <td>Los Angeles</td>
+        <td>Toronto</td>
+        <td>Chicago</td>
+        <td>Houston</td>
+    </tr>
+    <tr>
+        <td>Brooklyn</td>
+        <td>San Diego</td>
+        <td>Las Vegas</td>
+        <td>San Francisco</td>
+        <td>Seatle</td>
+    </tr>
+    <tr>
+        <td>Atlanta</td>
+        <td>Queens</td>
+        <td>Vancouver, BC</td>
+        <td>Miami</td>
+        <td>San Antonio</td>
+    </tr>
+</table>
+
+  <div class="footer"></div>
+  <div class="footer1">
+    <table>
+      <tr>
+        <th colspan="4">Popular Categories</th>
+      </tr>
+      <tr>
+        <td>Alcohol Delivery</td>
+        <td>Catering Near Me</td>
+          <td>Flower Delivery</td>
+            <td>Pet Store Near Me</td>
+      </tr>
+      <tr>
+        <td>Back To School Delivery</td>
+          <td>Convenience Stores</td>
+          <td>Grocery Delivery</td>
+        <td>Retail Stores Near Me</td>
+      </tr>
+      <td>Beauty Stores</td>
+          <td>Dashmart Near Me</td>
+        <td>Halloween</td>
+        <td>Seasonal Holiday</td>
+      </tr>
+      <tr>
+        <td>Beauty Supply</td>
+        <td>Deck The Doorstep</td>
+          <td>Medicine Delivery</td>
+            <td>Valentines Day</td>
+      </tr>
+    </table>
+  </div>
+  <div class="footer2">
+    <table>
+      <tr>
+        <th>Get To Know Us</th>
+        <th>Let Us Help You</th>
+        <th>Doing Business</th>
+        
+      </tr>
+      <tr>
+        <td>About Us</td>
+        <td>Account Details</td>
+          <td>Become A Dasher</td>
+      </tr>
+      <tr>
+        <td>Careers</td>
+        <td>Order History</td>
+          <td>List Your Business</td>
+      </tr>
+       <tr>
+        <td>Investors</td>
+        <td>Help</td>
+          <td>Get Dashers For Delivery</td>
+      </tr>
+      <tr>
+        <td>Company Blog</td>
+        <td></td>
+        <td>Get DoorDash For Business</td>
+      </tr>
+      <tr>
+        <td>Egineering Blog</td>
+      </tr>
+      <tr>
+        <td>Merchant Blog</td>
+      </tr>
+      <tr>
+        <td>Gifts Cards</td>
+      </tr>
+      <tr>
+        <td>Package Pickup</td>
+      </tr>
+      <tr>
+        <td>Promotions</td>
+      </tr>
+      <tr>
+        <td>Dasher Central</td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+      </tr>
+      <tr>
+        <td>Glassdoor</td>
+      </tr>
+      <tr>
+        <td>Accssibility</td>
+      </tr>
+      <tr>
+        <td>Newsroom</td>
+      </tr>
+    </table>
+  </div>
+  <div class="footer3">
+  <button> &#128241; Available on the <br> App Store</button>  <br>
+  <button> &#128241; Available on the <br> Google Play</button>
+  </div>
+  <div class="footer4">
+    <svg aria-hidden="true" width="25" height="24" viewBox="0 0 99.5 56.5" fill="#ffff"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg>
+ <a href="#">Terms of service</a>&nbsp;&nbsp;
+ <a href="#">Privacy</a>&nbsp;&nbsp;
+ <a href="#">Delivery Location</a>&nbsp;&nbsp;
+ <a href="#">Do Not Sell Or Share My Private Information</a>&nbsp;&nbsp;
+ <p>&copy;2024 DoorDash</p>
+ <select>
+   <option value="English(US)">English (US)</option>
+   <option value="English(International)">English (International)</option>
+   <option value="French">French</option>
+   <option value="German">German</option>
+ </select>   
+</div>
+</div>
+</body>
+</html>
